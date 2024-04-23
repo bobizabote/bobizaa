@@ -273,7 +273,7 @@ externalAdReply: {
 title: '♥♥♥',
 body: "",
 thumbnailUrl: 'https://telegra.ph/file/27dfe370c433f44c5ad4c.jpg',
-sourceUrl: 'instagram.com/noureddine_ouafy',
+sourceUrl: '*https://instagram.com/Hlimi_Imran*',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
@@ -291,7 +291,7 @@ renderLargerThumbnail: true
 }
 handler.help = ['help']
 handler.tags = ['main']
-handler.command = ['all','allmenu'] 
+handler.command = ['menu2','allmenu'] 
 
 export default handler
 
