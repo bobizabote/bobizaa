@@ -48,7 +48,7 @@ ${(await jenius.artist).name ? await(jenius.artist).name : nothing}
 *乂 Url 乂*
 ${jenius.url ? jenius.url : nothing}
 
-instagram.com/noureddine_ouafy
+https://instagram.com/Hlimi_Imran
 `;
             await m.reply(albert);
         } catch (e) {
@@ -60,7 +60,7 @@ instagram.com/noureddine_ouafy
                 const huu = await axios.get("https://www.lyricsfreak.com" + hh);
                 const s = cheerio.load(huu.data);
                 const h2 = s(".lyrictxt").text();
-                const frank = `*乂 Lyric 乂*\n${h2}\n\ninstagram.com/noureddine_ouafy`;
+                const frank = `*乂 Lyric 乂*\n${h2}\n\https://instagram.com/Hlimi_Imran`;
                 await m.reply(frank);
             } catch (error) {
                 throw error;
