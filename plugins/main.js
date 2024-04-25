@@ -15,7 +15,7 @@ const defaultMenu = {
 ╭╼⪼ SALAM *%name* 
 父 *𝑻𝒐𝒕𝒂𝒍 𝑼𝒔𝒆𝒓:* %totalreg 
 父 *𝑼𝒑𝒕𝒊𝒎𝒆:* %muptime 
-父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓* *IMRANE HLIMI*
+父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓:* *IMRANE HLIMI*
 ╰─────────────⪼
 ────────────────────────────────────────────
 
@@ -272,7 +272,7 @@ contextInfo: {
 externalAdReply: {
 title: '♥♥♥',
 body: "",
-thumbnailUrl: 'https://telegra.ph/file/27dfe370c433f44c5ad4c.jpg',
+thumbnailUrl: 'https://telegra.ph/file/921a2afb941a4551ebf18.jpg',
 sourceUrl: '*https://instagram.com/Hlimi_Imran*',
 mediaType: 1,
 renderLargerThumbnail: true
