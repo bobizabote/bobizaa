@@ -12,7 +12,7 @@ let handler = async (m, {
     text,
     command
 }) => {
-    if (!text) throw "هذا الامر خاص بعمل شعارات باسمك \nمثال:\n*.brandcrowd* Imran Hlimi"
+    if (!text) throw "*هذا الامر خاص بعمل شعارات باسمك* \nمثال:\n*.brandcrowd* Imran Hlimi"
     try {
             await m.reply(wait)
             let res = await BrandCrowd(text)
@@ -20,7 +20,7 @@ let handler = async (m, {
             await conn.sendMessage(m.chat, {
                 image: {
                     url: rdm
-                }, caption: "[ النتيجة ]"
+                }, caption: "*[ النتيجة ]*"
             }, {
                 quoted: m
             })
