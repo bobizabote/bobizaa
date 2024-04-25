@@ -3,13 +3,13 @@ import fetch from 'node-fetch';
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     if (!text) throw 'Ex: ' + usedPrefix + command + ' whatsapp';
 
-    await m.reply('_In progress, please wait..._');
+    await m.reply('*🕒In progress, please wait...📥*');
 
     let res = await apk(text);
     
     await conn.sendMessage(m.chat, {
     image: { url: res.icon },
-    caption: `*Name:* ${res.name}\n*Downloads:* ${res.dc}\n*Package:* ${res.path}\n*File Size:* ${res.size}`,
+    caption: `*Name:* ${res.name}\n*Downloads:* ${res.dc}\n*Package:* ${res.path}\n*File Size:* ${res.size}`*https://instagram.com/Hlimi_Imran*,
     footer: '_Apk files..._',
   });
     
