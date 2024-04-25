@@ -12,7 +12,7 @@ const defaultMenu = {
 ┍───━━━━━━───╍⪼
 ┆ ❑ 𝗕𝗢𝗕𝗜𝗭𝗔 𝗕𝗢𝗧 ❏
 ┕───━━━━━━───╍⪼
-╭╼⪼ 𝗦𝗔𝗟𝗔𝗠 *%name* 
+╭╼⪼ 𝗦𝗔𝗟𝗔𝗠: *%name* 
 父 *𝑻𝒐𝒕𝒂𝒍 𝑼𝒔𝒆𝒓:* %totalreg 
 父 *𝑼𝒑𝒕𝒊𝒎𝒆:* %muptime 
 父 *𝑪𝒓𝒆𝒂𝒕𝒐𝒓:* 𝗜𝗺𝗿𝗮𝗻 𝗛𝗹𝗶𝗺𝗶
@@ -25,7 +25,7 @@ const defaultMenu = {
 Ⓟ = ᴘʀᴇᴍɪᴜᴍ
 --------------------------------------------------------------------------------------------------------------
 
-  ≡ *​ 🅜🅔🅝🅤*
+  ≡ *​𝐦𝐞𝐧𝐮*
 `.trimStart(),
   header: '┏━━⊜ *_%category_* ━⊜',
   body: '┃⋄ %cmd %isdiamond %isPremium',
@@ -270,7 +270,7 @@ let nao = await conn.sendMessage(m.chat, {text: '___________________🚂🚃🚃
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'The first bot in the Arab world is bobiza ♥️',
+title: 'The first bot in the Arab world is bobiza ♥️ It contains a lot of good information and concepts💝',
 body: "",
 thumbnailUrl: 'https://telegra.ph/file/921a2afb941a4551ebf18.jpg',
 sourceUrl: '*https://instagram.com/Hlimi_Imran*',
