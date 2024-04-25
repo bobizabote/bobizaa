@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     
     await conn.sendMessage(m.chat, {
     image: { url: res.icon },
-    caption: `*Name:* ${res.name}\n*Downloads:* ${res.dc}\n*Package:* ${res.path}\n*File Size:* ${res.size}`,
+    caption: `*Name:* ${res.name}\n*Downloads:* ${res.dc}\n*Package:* ${res.path}\n*File Size:* ${res.size}  *https://www.instagram.com/hlimi_imran*`,
     footer: '_Apk files..._',
   });
     
