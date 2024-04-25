@@ -143,7 +143,7 @@ sourceUrl: '*https://www.instagram.com/hlimi_imran*',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
-
+https://files.catbox.moe/5uyojn.m4a
     /*conn.sendFile(m.chat, 'menu.png', text.trim(), m, null, )
     /*conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
