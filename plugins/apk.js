@@ -1,7 +1,6 @@
 import {search, download} from 'aptoide-scraper';
 const handler = async (m, {conn, usedPrefix: prefix, command, text}) => {
- if (!text) throw `*معشوق الجماهير هذا الأمر خاص بتحميل التطبيقات المجانية والمدفوعة منها نكتب هكذا على سبيل المثال* \n*.apk Facebook lite* 
-*.app Facebook lite*`;
+ if (!text) throw `*معشوق الجماهير هذا الأمر خاص بتحميل التطبيقات المجانية والمدفوعة منها نكتب هكذا على سبيل المثال* \n*.apk Facebook lite*`;
   try {    
     const searchA = await search(text);
     const data5 = await download(searchA[0].id);
@@ -19,5 +18,4 @@ const handler = async (m, {conn, usedPrefix: prefix, command, text}) => {
 handler.help = ["apk"]
 handler.tags = ["applications"]
 handler.command = ["apk"]
-handler.command = ["app"]
 export default handler;
