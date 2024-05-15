@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
 let handler = async (m, { command, usedPrefix, conn, args }) => {
-  if (!args[0]) return m.reply("هذا الأمر خاص باختصار الروابط سوف اعطيك مثال \n.short https://youtu.be/LrsNYeLqRAU vgd");
+  if (!args[0]) return m.reply("*هذا الأمر خاص باختصار الروابط سوف اعطيك مثال* \n.short *https://youtu.be/LrsNYeLqRAU* vgd");
   let url = args[0].startsWith("https://") ? args[0] : `https://${args[0]}`;
   if (!url.startsWith("https://"))
     return m.reply("Masukan Url Dengan Awalan *https://*");
