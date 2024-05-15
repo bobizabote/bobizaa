@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     if (!text) throw 'Ex: ' + usedPrefix + command + ' whatsapp';
 
-    await m.reply('*`In progress, please wait...*`');
+    await m.reply('*`In progress, please wait...`*');
 
     let res = await apk(text);
     
